@@ -1,0 +1,39 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2,p,label,h3{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 50%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#apodContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around ;
+    
+}
+
+img{
+    background-size: contain;
+    border-radius: 5%;
+}
+

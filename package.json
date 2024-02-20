@@ -1,0 +1,19 @@
+{
+  "name": "assign3-css-precomiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startserv": "lite-server --baseDir=\"public\"",
+    "test": "sass --watch src:public/assets/css",
+    "start": "concurrently \"npm run startserv\" \"npm run test\""
+  },
+  "author": "Dylan",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.4"
+  }
+}
